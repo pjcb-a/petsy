@@ -1,0 +1,65 @@
+*,
+*::before, 
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+:root {
+  --color-primary: #78BCC4;
+  --color-secondary: #f7444e;
+  --color-accent: #F7F8F3;
+  --color-contrast: #002C3E;
+  --color-accents: #0b4ea2;
+  --color-success: #1b7f4d;
+  --color-warning: #b76100;
+  --color-danger: #b42318;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.cont {
+  width: 10rem;
+  height: 12rem;
+  border: 2px solid black;
+}
+
+.cont1 {
+  background-color: var(--color-primary);
+}
+
+.cont2 {
+  background-color: var(--color-secondary);
+}
+
+.cont3 {
+  background-color: var(--color-accent);
+}
+
+.cont4 {
+  background-color: var(--color-contrast);
+}
+
+.cont5 {
+  background-color: var(--color-success);
+}
+
+.cont6 {
+  background-color: var(--color-warning);
+}
+
+.cont7 {
+  background-color: var(--color-danger);
+}
+
+.cont8 {
+  background-color: var(--color-accents);
+}
